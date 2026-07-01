@@ -269,7 +269,7 @@ sudo dpkg -i /tmp/i915-sriov-dkms.deb
 cat /var/lib/dkms/i915-sriov-dkms/*/build/make.log | tail -80
 ```
 
-## 7. 启用 GuC 并禁用 xe
+## 7. 飞牛系统中启用 GuC 并禁用 xe
 
 SR-IOV VF 需要 GuC submission。否则可能出现：
 
